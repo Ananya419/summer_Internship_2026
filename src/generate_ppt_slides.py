@@ -5,7 +5,7 @@ from pptx.dml.color import RGBColor
 
 def create_presentation():
     print("Generating PPT Presentation Deck...")
-    BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     OUTPUT_PPT = os.path.join(BASE_DIR, "outputs", "Presentation_Deck.pptx")
     SUBMISSION_PPT = os.path.join(BASE_DIR, "Ananya_Shahi_Submission", "PPT_Slides", "Presentation_Deck.pptx")
     
