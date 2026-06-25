@@ -1,0 +1,517 @@
+﻿DATA ANALYST INTERN Prerequisite Learning Guide & Program Overview 
+Fintech Division | Analytics & Insights Team 
+Program 
+	Data Analyst Internship — Cohort 2025
+	Domain 
+	Fintech | Financial Analytics | Data Engineering
+	
+
+	
+
+	Duration 
+	2 Weeks (Week 1: Learning | Week 2: Evaluation)
+	Start Date 
+	Immediate — Program Active
+	Document 
+	Prerequisite Skills & Timeline Guide v1.0
+	
+
+
+
+This document outlines everything you need to learn, complete, and demonstrate during your internship. Read it carefully on Day 1. 
+Generated: May 29, 2026
+CONFIDENTIAL — FOR INTERN USE ONLY 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 2 
+01 PROGRAM OVERVIEW & TIMELINE 
+Welcome to the Data Analyst Internship program. This is a structured 2-week intensive designed to rapidly upskill you in data analytics fundamentals and apply those skills to real Fintech company projects. Your performance across the prerequisite test and capstone project will directly determine the ongoing company projects you are assigned. 
+Phase 
+	Timeline 
+	Activity 
+	Outcome
+	Week 1 
+Day 1-2 
+	Days 1–2 
+	Orientation, prerequisite skill learning begins. 
+Study Python, SQL, Pandas, NumPy, Flask, Fintech basics. 
+	Learning initiated
+	Week 1 
+Day 3-5 
+	Days 3–5
+	Continue skill building. 
+Capstone project assigned (Day 3 or 4). 
+Simultaneous: upskill + begin project work.
+	Capstone assigned
+	Week 2 
+Day 6-7 
+	Days 6–7 
+	Prerequisite Test conducted online. 
+Test covers all technical + Fintech topics. 
+	Test evaluated
+	Week 2 
+Day 8-10 
+	Days 8–10 
+	Capstone Project submission deadline. 
+Evaluation by mentor team. 
+	Project submitted
+	Post Week 2 
+	Day 11+ 
+	Based on test + capstone performance, 
+major ongoing company projects assigned. 
+	Projects assigned
+	
+
+
+
+02 KEY RULES & EXPECTATIONS 
+1. You must complete all prerequisite skills learning in Week 1. No extensions. 2. The Capstone Project will be assigned between Day 3–5. You MUST start immediately. 3. The Online Prerequisite Test covers all topics listed in this document. Prepare thoroughly. 4. Your Capstone Project must be submitted by the end of Week 2. Late submissions are penalized. 5. Project assignment post-internship is ENTIRELY based on test score + capstone quality. 6. Use YouTube, official documentation, Kaggle, and trusted internet resources to learn. 7. If stuck, ask your mentor — don't waste hours in silence. Communication matters.
+Confidential — Internal Document | For Intern Use Only 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 3 
+03 PREREQUISITE TECHNICAL SKILLS 
+Master all topics below using YouTube tutorials, official documentation, and hands-on practice. Every topic listed will be tested in the Prerequisite Test and/or the Capstone Project. 
+A. Python Programming 
+Topic 
+	Key Concepts 
+	Resources
+	Python Basics 
+	Variables, data types, loops, functions, OOP,file I/O, error handling, modules
+	YouTube: Corey Schafer, CS Dojo docs.python.org
+	NumPy 
+	Arrays, indexing, slicing, broadcasting,math operations, random, reshaping
+	YouTube: Keith Galli 
+numpy.org/doc
+ 
+	Pandas 
+	DataFrame, Series, read_csv, groupby,merge/join, pivot, apply, loc/iloc, fillna
+	YouTube: Corey Schafer Pandas Seriespandas.pydata.org
+ 
+	Matplotlib & 
+Seaborn
+	Line/bar/scatter/heatmap plots, styling, subplots, sns themes
+	YouTube: sentdex, Kite 
+matplotlib.org
+	Flask 
+	Routes, request/response, templates (Jinja2),REST APIs, JSON endpoints, forms
+	YouTube: Traversy Media, Tech With Timflask.palletsprojects.com
+	Jupyter Notebook 
+	Cells, markdown, magic commands,exporting, widgets
+	YouTube: Corey Schafer 
+jupyter.org
+	
+
+
+
+ 
+ 
+B. SQL & PostgreSQL 
+Topic 
+	Key Concepts 
+	Resources
+	SQL Fundamentals 
+	SELECT, WHERE, ORDER BY, GROUP BY,HAVING, LIMIT, DISTINCT, aliases
+	YouTube: freeCodeCamp SQL Full Coursew3schools.com/sql
+	Joins & Subqueries 
+	INNER, LEFT, RIGHT, FULL JOIN, subqueries, CTEs (WITH clause)
+	YouTube: Socratica, Alex the Analystpostgresqltutorial.com
+	Aggregations & 
+Window Functions
+	COUNT, SUM, AVG, MIN, MAX, ROW_NUMBER, RANK, LAG, LEAD, PARTITION BY
+	YouTube: Alex the Analyst 
+mode.com/sql-tutorial
+	PostgreSQL Specific 
+	pgAdmin setup, psycopg2 (Python conn),data types, SERIAL, JSONB, indexes
+	YouTube: Traversy Media PostgreSQLpostgresql.org/docs
+ 
+	Data Cleaning 
+in SQL
+	CAST, COALESCE, NULLIF, string functions,date functions, CASE WHEN
+	YouTube: Data with Mo 
+kaggle.com/learn/advanced-sql
+	
+
+
+
+ 
+ 
+Confidential — Internal Document | For Intern Use Only 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 4 
+03 PREREQUISITE SKILLS (CONTINUED) 
+C. Data Analysis & Exploratory Data Analysis (EDA) 
+Topic 
+	Key Concepts 
+	Resources
+	EDA Process 
+	Understand data shape, distributions,missing values, outliers, correlations
+	YouTube: Ken Jee, Rob Mulla Kaggle EDA notebooks
+ 
+	Statistics 
+	Mean, median, mode, std deviation, variance, percentiles, Z-score, distributions
+	YouTube: StatQuest (Josh Starmer) khan academy statistics
+	Data Cleaning 
+	Handle missing values, duplicate removal,type conversion, standardization, encoding
+	YouTube: Keith Galli 
+pandas docs
+ 
+	Feature Engineering 
+	Creating new features, binning, encodingcategorical variables, normalization
+	YouTube: Krish Naik 
+scikit-learn user guide
+	Visualization 
+for Insights
+	Choosing the right chart, storytelling with data, dashboards, annotations
+	YouTube: Data Professor 
+storytelling with data (book)
+	
+
+
+
+D. Machine Learning Fundamentals (Awareness Level) 
+Topic 
+	Key Concepts 
+	Resources
+	ML Concepts 
+	Supervised vs unsupervised, training/testing,overfitting, underfitting, cross-validation
+	YouTube: StatQuest, Krish Naik scikit-learn.org
+ 
+	Regression 
+	Linear regression, polynomial regression,R-squared, RMSE, MAE
+	YouTube: Andrew Ng (Coursera preview)Kaggle Learn
+	Classification 
+	Logistic regression, decision trees, confusion matrix, precision, recall, F1
+	YouTube: Sentdex, StatQuest Kaggle Learn
+	scikit-learn 
+	fit(), predict(), train_test_split, pipeline, preprocessing, model evaluation
+	YouTube: Corey Schafer sklearn scikit-learn.org/stable
+	
+
+
+
+ 
+E. Git & Version Control 
+Topic 
+	Key Concepts 
+	Resources
+	Git Basics 
+	git init, clone, add, commit, push, pull,branch, merge, .gitignore, GitHub repo
+	YouTube: Traversy Media Git Crash Coursegit-scm.com/docs
+ 
+	Collaboration 
+	Pull requests, code review, resolvingconflicts, README writing
+	YouTube: freeCodeCamp Git & GitHubgithub.com guides
+	
+
+
+
+ 
+Confidential — Internal Document | For Intern Use Only 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 5 
+04 FINTECH DOMAIN KNOWLEDGE (MANDATORY) 
+As our company operates in the Fintech domain, domain knowledge is NON-NEGOTIABLE. You will be expected to apply data analytics to financial data. Learn the following thoroughly. 
+A. Stock Market Fundamentals 
+Concept 
+	What You Must Know 
+	Where to Learn
+	Stock Market Basics 
+	What is a stock, equity, stock exchange,NSE/BSE (India), NYSE/NASDAQ, IPO, listing
+	YouTube: CA Rachana Ranade NSE India website
+ 
+	Price & Volume 
+	OHLC (Open, High, Low, Close), market cap,trading volume, bid-ask spread, market orders
+	YouTube: Pranjal Kamra 
+Zerodha Varsity (free)
+ 
+	Indices 
+	NIFTY 50, SENSEX, sectoral indices,how index is calculated, index funds
+	YouTube: Groww Official 
+zerodha.com/varsity
+	Technical Analysis 
+(Basics)
+	Candlestick charts, support/resistance,MA, EMA, RSI, MACD, Bollinger Bands
+	YouTube: Nitin Bhatia TA Series Zerodha Varsity TA module
+ 
+	Fundamental Analysis 
+(Basics)
+	P/E ratio, EPS, P/B ratio, revenue, profit,annual report reading, balance sheet basics
+	YouTube: CA Rachana Ranade Tickertape, Screener.in
+ 
+	Market Data APIs 
+	Fetching stock data using Python: yfinance, NSEpy, Alpha Vantage API
+	YouTube: NeuralNine stock data finance.yahoo.com
+	
+
+
+
+B. Mutual Funds 
+Concept 
+	What You Must Know 
+	Where to Learn
+	Mutual Fund Basics 
+	What is a MF, NAV, units, AUM, AMC,fund manager, expense ratio, exit load
+	YouTube: CA Rachana Ranade MF SeriesAMFI India website (amfiindia.com)
+ 
+	Types of Funds 
+	Equity, debt, hybrid, ELSS, index funds,liquid funds, sectoral funds, FOF
+	YouTube: Groww Official 
+ValueResearchOnline
+	Returns & Risk 
+	CAGR, absolute return, XIRR, rolling returns,Sharpe ratio, alpha, beta, standard deviation
+	YouTube: Pranjal Kamra 
+Morningstar India
+ 
+	SIP & Lump Sum 
+	Systematic Investment Plan, rupee costaveraging, lump sum vs SIP comparison
+	YouTube: Yadnya Investment AcademyETMoney SIP Calculator
+ 
+	Fund Selection 
+	Star ratings, portfolio overlap, category avg,benchmark comparison, fund house reputation
+	YouTube: NRI Money Clinic 
+ValueResearchOnline, Kuvera 
+	
+
+
+
+ 
+Confidential — Internal Document | For Intern Use Only 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 6 
+04 FINTECH DOMAIN KNOWLEDGE (CONTINUED) 
+C. Additional Fintech Concepts 
+Concept 
+	What You Must Know 
+	Where to Learn
+	Personal Finance 
+	Budgeting, savings rate, net worth, debt management, financial planning
+	YouTube: Labour Law Advisor ET Money Blog
+	Banking & Payments 
+	UPI, NEFT, RTGS, IMPS, payment gateways,digital wallets, fintech disruption
+	YouTube: CRED Curiosity Room RBI website (rbi.org.in)
+	Insurance Basics 
+	Term, health, ULIP, premium, sum assured,claim ratio, LIC vs private
+	YouTube: CA Rachana Ranade PolicyBazaar blog
+	Taxation Basics 
+	Income tax slabs, TDS, capital gains tax(STCG/LTCG), 80C deductions
+	YouTube: Yadnya, CA Rachana RanadeIncometaxindia.gov.in
+	Fintech Ecosystem 
+	Neobanks, robo-advisors, lending tech,insurtech, regtech, BNPL, crypto basics
+	YouTube: Finshots 
+finshots.in (newsletter)
+ 
+	Regulatory Bodies 
+	SEBI, RBI, IRDAI, AMFI, their roles and how they regulate fintech
+	SEBI.gov.in, RBI.org.in 
+YouTube: IPO corner
+	
+
+
+
+ 
+D. Essential Tools & Environments 
+Tool 
+	Purpose 
+	Learn From
+	VS Code 
+	Primary IDE for Python development,extensions, debugging, Git integration
+	YouTube: Traversy Media VS Code code.visualstudio.com/docs
+ 
+	Jupyter Notebook / 
+JupyterLab
+	Interactive data analysis, EDA, ML experiments, data storytelling
+	YouTube: Corey Schafer Jupyter jupyter.org/documentation
+	pgAdmin 4 
+	PostgreSQL GUI, writing queries, table management, data import/export
+	YouTube: Traversy Media PostgreSQLpgadmin.org/docs
+	Google Colab 
+	Free cloud Jupyter, GPU access, collaboration, sharing notebooks
+	colab.research.google.com 
+YouTube: Data Professor Colab
+	Postman 
+	API testing, REST endpoint testing, JSON response inspection
+	YouTube: Traversy Media Postman postman.com/learning-center
+	Excel / Google Sheets 
+	Quick data inspection, pivot tables, basic charts, VLOOKUP, data cleaning
+	YouTube: ExcelIsFun 
+support.google.com/docs
+	
+
+
+
+Confidential — Internal Document | For Intern Use Only 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 7 
+05 WEEK 1 DAILY LEARNING PLAN 
+Day 1: Orientation & Python Foundation 
+■ Attend orientation briefing. Read this entire document. 
+■ Python: Variables, data types, lists, dicts, loops, functions ■ Python: OOP basics (classes, objects, inheritance) 
+■ Setup: Install Python, VS Code, Jupyter, pgAdmin 
+■ Target: Write a Python script that reads a CSV and prints stats 
+Day 2: NumPy, Pandas & Data Cleaning 
+■ NumPy: Arrays, operations, broadcasting, indexing 
+■ Pandas: DataFrames, read_csv, head/tail, info, describe 
+■ Pandas: loc/iloc, filtering, groupby, merge, fillna 
+■ Practice: Load a dataset from Kaggle, clean it, explore it 
+■ Target: Complete 1 EDA notebook on any financial dataset 
+Day 3: SQL + PostgreSQL + Capstone 
+Assigned 
+■ SQL: SELECT, WHERE, GROUP BY, HAVING, JOINs 
+■ PostgreSQL: Setup pgAdmin, create DB, import CSV data ■ Advanced SQL: CTEs, Window Functions, CASE WHEN 
+■ CAPSTONE PROJECT IS ASSIGNED TODAY — Start planning immediately ■ Target: Run 10+ SQL queries on financial data in PostgreSQL 
+Day 4: Visualization + Flask + Capstone 
+Work 
+■ Matplotlib & Seaborn: Create 5+ chart types with financial data ■ Flask: Build a simple REST API with 2-3 endpoints 
+■ Flask: Connect to PostgreSQL using psycopg2, return JSON ■ Capstone: Write project structure, begin data analysis 
+■ Target: Flask app running + first capstone data insights 
+Day 5: Fintech Domain + ML Basics + 
+Capstone 
+■ Stock market: OHLC data, fetch using yfinance in Python 
+■ Mutual funds: NAV data, CAGR calculation in Python/Pandas ■ ML Basics: Linear regression on a financial dataset 
+■ Capstone: Complete data analysis section, begin modeling ■ Target: Fintech domain notes ready. Capstone 50%+ complete
+Confidential — Internal Document | For Intern Use Only 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 8 
+06 WEEK 2: TEST & CAPSTONE SUBMISSION 
+Online Prerequisite Test 
+The test will be conducted online during Week 2 (Days 6-7). It covers ALL technical and domain topics from this document. Format includes MCQs, short code outputs, SQL queries, and Fintech concept questions. 
+Test Section 
+	Topics Covered 
+	Weightage
+	Python & Libraries 
+	NumPy, Pandas, Matplotlib, Flask, OOP 
+	30%
+	SQL & PostgreSQL 
+	Queries, Joins, Window Functions, pgAdmin 
+	25%
+	Data Analysis & EDA 
+	Statistics, data cleaning, visualization 
+	20%
+	Fintech Domain 
+	Stock market, MF, SEBI, financial ratios 
+	15%
+	ML & Tools 
+	sklearn basics, Git, Jupyter, Colab 
+	10%
+	
+
+
+
+Capstone Project Guidelines 
+The Capstone Project is a real-world data analytics project assigned to you in Week 1. It will be in the Fintech domain. You must submit a complete notebook + Flask API + report. 
+✓ Exploratory Data Analysis (EDA) with visualizations on the provided financial dataset ✓ Data cleaning pipeline using Pandas (handle missing values, outliers, data types) ✓ SQL queries in PostgreSQL to answer 5+ business questions from the dataset 
+✓ Statistical insights: trends, correlations, anomaly detection 
+✓ A simple Flask API (minimum 2 endpoints) that serves data insights as JSON 
+✓ Optional (bonus): A basic ML model (regression or classification) on the dataset ✓ Final report: PDF or Jupyter Notebook with narrative, charts, and findings 
+✓ GitHub repository with clean commit history, README, and requirements.txt 
+07 POST-INTERNSHIP: PROJECT ASSIGNMENT CRITERIA 
+After Week 2, your mentor team evaluates your test and capstone and assigns you to ongoing company projects in the Fintech domain. The better you perform, the more critical the project you get. 
+ 
+Performance Band Test Score 
+	
+
+	Capstone Quality 
+	Project Assigned
+	Outstanding 
+	90%+ 
+	Exceptional — production ready 
+	Lead Analytics on Live Fintech Product
+	Excellent 
+	75–90% 
+	Strong — thorough analysis 
+	Core Data Pipeline / Dashboarding Project
+	Good 
+	60–75% 
+	Good — solid foundations shown 
+	Supporting role in Analytics Project
+	Needs Improvement
+	<60% 
+	Incomplete or minimal work 
+	Extended learning period, re-evaluation
+	
+
+
+
+Confidential — Internal Document | For Intern Use Only 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 9 
+08 LEARNING RESOURCES QUICK REFERENCE 
+Resource 
+	URL / Platform 
+	Best For
+	Zerodha Varsity 
+	zerodha.com/varsity 
+	Stock market & MF — free, excellent
+	Kaggle Learn 
+	kaggle.com/learn 
+	Python, Pandas, SQL, ML — free with certs
+	freeCodeCamp YouTube 
+	youtube.com/@freecodecamp 
+	Full-length coding courses
+	StatQuest (YouTube) 
+	youtube.com/@statquest 
+	Statistics, ML explained simply
+	Alex the Analyst 
+	youtube.com/@alextheanalyst 
+	SQL, Pandas, Power BI for data analysts
+	CA Rachana Ranade 
+	youtube.com/@CARachanaRanade 
+	Indian stock market & MF (Hindi/English)
+	PostgreSQL Tutorial 
+	postgresqltutorial.com 
+	Complete PostgreSQL + psycopg2 guide
+	Real Python 
+	realpython.com 
+	Python, Flask, pandas deep dives
+	Towards Data Science 
+	towardsdatascience.com 
+	EDA, ML, Fintech data science articles
+	NSE India / BSE 
+	nseindia.com / bseindia.com 
+	Real market data, historical prices
+	yfinance Docs 
+	pypi.org/project/yfinance 
+	Fetch stock data in Python
+	Flask Docs 
+	flask.palletsprojects.com 
+	Official Flask documentation
+	NeuralNine (YouTube) 
+	youtube.com/@NeuralNine 
+	Flask, data science, Python projects
+	
+
+
+
+09 QUICK CHECKLIST BEFORE WEEK 2 TEST
+Python 
+	■ Variables, loops, functions, OOP 
+■ NumPy arrays + operations 
+■ Pandas: read, clean, group, merge 
+■ Matplotlib/Seaborn: 5+ chart types 
+■ Flask REST API with JSON responses
+	SQL 
+	■ SELECT, WHERE, GROUP BY, HAVING 
+■ INNER, LEFT, RIGHT JOINs 
+■ CTEs and Window Functions 
+■ PostgreSQL setup + psycopg2 
+■ 5+ business queries written
+	Fintech 
+	■ Stock: OHLC, indices, P/E, EPS 
+■ Mutual Fund: NAV, CAGR, SIP, expense ratio 
+■ yfinance to fetch stock data 
+■ SEBI/RBI/AMFI roles understood 
+■ At least 1 financial dataset analyzed
+	
+
+
+
+Confidential — Internal Document | For Intern Use Only 
+ 
+ 
+ 
+ 
+ 
+ 
+DATA ANALYST INTERNSHIP — PREREQUISITE GUIDE Page 10 
+Tools 
+	■ VS Code + Jupyter set up 
+■ pgAdmin connected to local DB 
+■ Git repo created with commits 
+■ Google Colab account active
+	
+
+
+
+Good luck! The internship is your launchpad — put in the effort this week and you will walk away with real skills, a strong portfolio project, and a company project to your name.
+Confidential — Internal Document | For Intern Use Only
