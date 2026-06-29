@@ -253,7 +253,8 @@ class DatabaseLoader:
 
     def save_audit_csv(self):
         """Saves execution statistics log to output/load_audit.csv."""
-        output_dir = r"C:\Users\sants\OneDrive\Desktop\Internship_2026\n100_financial_intelligence\output"
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        output_dir = os.path.join(base_dir, "output")
         os.makedirs(output_dir, exist_ok=True)
         path = os.path.join(output_dir, "load_audit.csv")
 
@@ -263,9 +264,10 @@ class DatabaseLoader:
 
 
 if __name__ == "__main__":
-    db = r"C:\Users\sants\OneDrive\Desktop\Internship_2026\n100_financial_intelligence\data\nifty100.db"
-    schema = r"C:\Users\sants\OneDrive\Desktop\Internship_2026\n100_financial_intelligence\db\schema.sql"
-    raw = r"C:\Users\sants\OneDrive\Desktop\Internship_2026\n100_financial_intelligence\data\raw"
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    db = os.path.join(base_dir, "data", "nifty100.db")
+    schema = os.path.join(base_dir, "db", "schema.sql")
+    raw = os.path.join(base_dir, "data", "raw")
 
     loader = DatabaseLoader(db, schema, raw)
     loader.run_pipeline()

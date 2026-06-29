@@ -438,7 +438,8 @@ class DataValidator:
 
     def save_failures_csv(self):
         """Saves logs to output/validation_failures.csv."""
-        output_dir = r"C:\Users\sants\OneDrive\Desktop\Internship_2026\n100_financial_intelligence\output"
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        output_dir = os.path.join(base_dir, "output")
         os.makedirs(output_dir, exist_ok=True)
         path = os.path.join(output_dir, "validation_failures.csv")
 
