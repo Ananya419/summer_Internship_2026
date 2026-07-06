@@ -176,3 +176,18 @@ CREATE INDEX IF NOT EXISTS idx_stock_prices_comp_date ON stock_prices (company_i
 CREATE INDEX IF NOT EXISTS idx_profitandloss_comp_year ON profitandloss (company_id, year);
 CREATE INDEX IF NOT EXISTS idx_balancesheet_comp_year ON balancesheet (company_id, year);
 CREATE INDEX IF NOT EXISTS idx_financial_ratios_comp_year ON financial_ratios (company_id, year);
+
+-- 13. peer_percentiles (Additional analytical table)
+CREATE TABLE IF NOT EXISTS peer_percentiles (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    company_id TEXT NOT NULL,
+    peer_group_name TEXT NOT NULL,
+    metric TEXT NOT NULL,
+    value REAL,
+    percentile_rank REAL,
+    year INTEGER NOT NULL,
+    FOREIGN KEY (company_id) REFERENCES companies(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_peer_percentiles_comp_metric_year ON peer_percentiles (company_id, metric, year);
+
